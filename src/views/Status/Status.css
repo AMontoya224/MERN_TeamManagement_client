@@ -1,0 +1,20 @@
+.status{
+    width: 1200px;
+    margin: 10px auto;
+}
+
+.status-title{
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.status-container{
+    margin-top: 2rem;
+    padding: 2rem 10rem 2rem 10rem;
+    background: var(--color-white);
+}
+
+.status-container > div{
+    margin: 0.5rem auto;
+    width: 500px;
+}

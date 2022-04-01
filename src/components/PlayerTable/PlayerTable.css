@@ -1,0 +1,42 @@
+table{
+    width: 900px;
+    padding: 1rem;
+    box-shadow: 0.3rem 0.3rem 0.5rem 0.1rem var(--color-table-variant);
+    transition: all 500ms ease;
+}
+table:hover{
+    box-shadow: 0.3rem 0.3rem 0.5rem 0.1rem var(--color-table);
+}
+
+.delete-table{
+    color: var(--color-white);
+    background: var(--color-danger);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 2px;
+    margin: 5px 10px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.delete-table:hover{
+    background: var(--color-danger-variant);
+}
+
+thead{
+    box-shadow: 0rem 1px 0rem 0rem var(--color-table-variant);
+    color: var(--color-black);
+    height: 40px;
+    
+}
+
+tbody > tr{
+    background: var(--color-white);
+    color: var(--color-black);
+    transition: all 500ms ease;
+}
+tbody > tr:hover{
+    background: var(--color-background);
+}

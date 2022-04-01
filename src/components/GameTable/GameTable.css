@@ -1,0 +1,37 @@
+.update-table{
+    color: var(--color-white);
+    background: var(--color-table);
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 2px;
+    margin: 5px 10px;
+    border: none;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.update-table:hover{
+    background: var(--color-table-variant);
+}
+
+.sucess{
+    background: var(--color-sucess);
+}
+.sucess:hover{
+    background: var(--color-sucess-variant);
+}
+
+.danger{
+    background: var(--color-danger);
+}
+.danger:hover{
+    background: var(--color-danger-variant);
+}
+
+.warning{
+    background: var(--color-warning);
+}
+.warning:hover{
+    background: var(--color-warning-variant);
+}
